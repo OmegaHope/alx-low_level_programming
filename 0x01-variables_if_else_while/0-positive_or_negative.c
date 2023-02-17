@@ -10,7 +10,8 @@
  *
  * print the number with message tell what kinda number it is
  *
- * return - return always 0
+ * Return - return always 0
+ * returns integer value 0 for no arguments
  *
 */
 int main(void)
