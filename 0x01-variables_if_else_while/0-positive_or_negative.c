@@ -10,6 +10,7 @@
  *
  * print the number with message tell what kinda number it is
  *
+ * return - return always 0
 */
 int main(void)
 {
