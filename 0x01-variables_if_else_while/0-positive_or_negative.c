@@ -3,7 +3,14 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - check the the number generated randomly
+ *
+ * identify whether the number is +ve or -ve or 0
+ *
+ * print the number with message tell what kinda number it is
+ *
+*/
 int main(void)
 {
 	int n;
