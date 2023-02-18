@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
  * main - check the the number generated randomly
@@ -10,8 +9,7 @@
  *
  * print the number with message tell what kinda number it is
  *
- * Return - return always 0
- * returns integer value 0 for no arguments
+ * Return - returns integer value 0 for no arguments
  *
 */
 int main(void)
