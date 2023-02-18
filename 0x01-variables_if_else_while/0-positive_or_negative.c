@@ -9,8 +9,7 @@
  *
  * print the number with message tell what kinda number it is
  *
- * Return - returns integer value 0 for no arguments
- *
+ * Return: returns integer value 0 for no arguments
 */
 int main(void)
 {
