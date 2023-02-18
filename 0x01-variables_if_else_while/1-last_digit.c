@@ -4,16 +4,16 @@
 /* more headers goes there */
 
 /**
- * main - generate number randomly
+ * Main: generate number randomly
  * compute the generated number whether it is >5 either =0 or <6 and !==0
  *
- * return - return zero(0) always
+ * Return: return zero(0) always
  *
 */
 int main(void)
 {
 	int n, l;
-	srand(time(0));
+	srand( time(0) );
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	l = n % 10;
