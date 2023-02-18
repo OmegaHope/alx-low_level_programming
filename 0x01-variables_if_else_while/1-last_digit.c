@@ -7,7 +7,9 @@
  * main- generate number randomly
  * compute the generated number whether it is >5 either =0 or <6 and !==0
  *
- * Description: generate number randomly compute the generated number whether it is >5 either =0 or <6 and !==0
+ * Description: generate number randomly compute the generated number whether it
+ *
+ *Return: always return 0
 */
 int main(void)
 {
