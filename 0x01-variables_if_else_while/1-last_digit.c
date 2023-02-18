@@ -7,14 +7,12 @@
  * main- generate number randomly
  * compute the generated number whether it is >5 either =0 or <6 and !==0
  *
- * Description: generate number randomly
- * compute the generated number whether it is >5 either =0 or <6 and !==0
- * return zero(0) always
+ * Description: generate number randomly compute the generated number whether it is >5 either =0 or <6 and !==0
 */
 int main(void)
 {
 	int n, l;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
