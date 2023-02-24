@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main -  draws a diagonal line on the terminal.
- * n is the number of times the character \ should be printed
- * The diagonal should end with a \n
+ * print_diagonal -  draws a diagonal line on the terminal.
+ * _putchar - print character needed
+ * @n: is the number of times the character \ should be printed
+ * @c: a variable counts to print the width
+ * @i: a variable counts to print the height
  *
  * Return: void type.
  */
@@ -24,6 +26,7 @@ void print_diagonal(int n)
 		 while (i > 0)
 		 {
 			 _putchar(' ');
+
 			 i--;
 		 }
 
@@ -32,5 +35,6 @@ void print_diagonal(int n)
 
 		 c++;
 		 n--;
+
 	}
 }

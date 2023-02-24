@@ -2,9 +2,9 @@
 
 /**
  * main - prints the numbers from 1 to 100
- *
- * for multiples of three print Fizz instead of the number
- *
+ * printf - prints output in organized manner
+ * @n: a variable counts the loop
+ * Description: for multiples of three print Fizz instead of the number
  * for the multiples of five print Buzz
  * For numbers which are multiples of both three and five print FizzBuzz
  *
@@ -18,7 +18,7 @@ int main()
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
-                        printf("FizzBuzz ");
+			printf("FizzBuzz ");
 		else if (n % 3 == 0)
 			printf("Fizz ");
 		else if (n % 5 == 0)

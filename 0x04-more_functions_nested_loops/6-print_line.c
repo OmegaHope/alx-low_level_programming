@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * main - draws a straight line in the terminal.
+ * print_line - draws a straight line in the terminal.
+ * _putchar - prints new line and dash
+ * @n: is the number of times the character _ should be printed
+ * @c: a variable counts the loop
  *
- * n is the number of times the character _ should be printed
- *
- * The line should end with a \n
- *
- * Return: void type.
  */
 
 void print_line(int n)
@@ -20,7 +18,5 @@ void print_line(int n)
 	}
 
 	if (c <= 0)
-	{
 		_putchar('\n');
-	}
 }

@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - prints a square, followed by a new line.
+ * print_square - prints a square, followed by a new line.
+ * _putchar - prints square one by one
+ * @size: the size of the square to be printed
+ * @i: a variable used to print the height
+ * @j: a variable used to print the width
  *
- * Use the character # to print the square
- * size is 0 or less, the function should print only a new line
- * Return: void type.
  */
 
 void print_square(int size)
