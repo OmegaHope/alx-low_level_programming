@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * main -
+ *
+ *
+ *
+ *
+ */
+
+void more_numbers(void)
+{
+	int n, c;
+
+	for (c = 1; c < 11; c++)
+	{
+		for (n = 0; n < 15; n++)
+		{
+			_putchar(n + '0');
+		}
+
+		_putchar('\n');
+	}
+
+	return;
+}
