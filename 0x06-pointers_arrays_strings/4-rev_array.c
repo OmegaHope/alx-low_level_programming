@@ -1,25 +1,20 @@
 #include "main.h"
-
 /**
- * reverse_array - reverse the array's members position
- * @a: a pointer variable points to array
- * @n: a variable used in loop as counter
- * @i: a variable used in loop as counter
+ * reverse_array - reverse array of integers
+ * @a: array
+ * @n: number of elements of array
+ *
+ * Return: void
  */
-
 void reverse_array(int *a, int n)
 {
-	  int i;
+	int i;
+	int t;
 
-	  i = n-1;
-	  while (i >= 0)
-	  {
-		  if (i != n-1)
-		  {
-			  printf(", ");
-		  }
-		  printf("%d", a[i]);
-		  i--;
-	  }
-	  printf("\n");
+	for (i = 0; i < n--; i++)
+	{
+		t = a[i];
+		a[i] = a[n];
+		a[n] = t;
+	}
 }
