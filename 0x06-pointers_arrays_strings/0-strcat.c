@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - append or concatenate two strings
+ * _strcat - append or concatenate two strings
  * @dest: a pointer variable for the destination string
  * @src: a pointer variable for the source string
  *
@@ -12,5 +12,5 @@ char *_strcat(char *dest, char *src)
 {
 	strcat(dest, src);
 
-	return(dest);
+	return (dest);
 }
