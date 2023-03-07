@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
+ * _strchr - Write a function that locates a character in a string.
+ * @s: a string tobe scanned
+ * @c: the caharacter tobe searched
  *
- *
- *
-8
-*
-*/
+ * Return: always return character type.
+ */
 
 char *_strchr(char *s, char c)
 {
